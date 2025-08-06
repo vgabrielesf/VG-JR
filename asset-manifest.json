@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vgabrielesf/VG-JR/static/css/main.695669f4.css",
+    "main.js": "/vgabrielesf/VG-JR/static/js/main.23d39b87.js",
+    "index.html": "/vgabrielesf/VG-JR/index.html",
+    "main.695669f4.css.map": "/vgabrielesf/VG-JR/static/css/main.695669f4.css.map",
+    "main.23d39b87.js.map": "/vgabrielesf/VG-JR/static/js/main.23d39b87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.695669f4.css",
+    "static/js/main.23d39b87.js"
+  ]
+}
