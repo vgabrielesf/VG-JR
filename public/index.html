@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Vitória Gabriele - Desenvolvedora Full Stack. Apresentação de projetos, habilidades, certificações e contato.">
+    <meta name="keywords" content="Vitória Gabriele, portfólio, desenvolvedora, React, JavaScript, projetos, certificações, habilidades, contato">
+    <meta name="author" content="Vitória Gabriele">
+    <title>Vitória Gabriele</title>
+    
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vgabrielesf.github.io/">
+    <meta property="og:title" content="Vitória Gabriele - Portfólio Pessoal">
+    <meta property="og:description" content="Portfólio de Vitória Gabriele - Desenvolvedora Full Stack. Apresentação de projetos, habilidades, certificações e contato.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://vgabrielesf.github.io/">
+    <meta property="twitter:title" content="Vitória Gabriele - Portfólio Pessoal">
+    <meta property="twitter:description" content="Portfólio de Vitória Gabriele - Desenvolvedora Full Stack. Apresentação de projetos, habilidades, certificações e contato.">
+</head>
+<body class="antialiased">
+    <div id="root"></div>
+    
+    <!-- Script para detectar tema do sistema -->
+    <script>
+        // Detecta preferência de tema do sistema
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+</body>
+</html>
